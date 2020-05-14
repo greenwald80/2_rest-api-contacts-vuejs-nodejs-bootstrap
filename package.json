@@ -1,0 +1,20 @@
+{
+  "name": "2_rest-api",
+  "version": "1.0.0",
+  "description": "cmd => c://nodejs => code . => run VSCODE\r mkdir foldername = create folder\r create file => echo $null >> filename.txt",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "uuid": "^8.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  }
+}
